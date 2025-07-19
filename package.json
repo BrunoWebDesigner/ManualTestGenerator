@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.15"
+  },
+    "scripts": {
+    "test": "npx playwright test analyzePage.spec.ts"
+  }
+}
