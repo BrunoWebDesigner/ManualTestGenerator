@@ -767,8 +767,8 @@
       "href": "https://support.google.com/youtube/answer/95725",
       "src": null,
       "rect": {
-        "top": 225,
-        "left": 787.515625,
+        "top": 205,
+        "left": 697.34375,
         "width": 70.828125,
         "height": 20
       },
@@ -809,9 +809,9 @@
       "href": "https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=EE&m=0&pc=yt&oyh=1&cm=6&hl=en&src=4",
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -1719,7 +1719,7 @@
       "tag": "svg",
       "role": null,
       "name": null,
-      "id": "yt-ringo2-svg_yt7",
+      "id": "yt-ringo2-svg_yt9",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -1746,7 +1746,7 @@
       },
       "attributes": {
         "xmlns": "http://www.w3.org/2000/svg",
-        "id": "yt-ringo2-svg_yt7",
+        "id": "yt-ringo2-svg_yt9",
         "width": "93",
         "height": "20",
         "viewBox": "0 0 93 20",
@@ -1754,7 +1754,7 @@
         "aria-hidden": "true",
         "style": "pointer-events: none; display: inherit; width: 100%; height: 100%;"
       },
-      "xpath": "//*[@id=\"yt-ringo2-svg_yt7\"]",
+      "xpath": "//*[@id=\"yt-ringo2-svg_yt9\"]",
       "clickable": true,
       "interactive": false
     },
@@ -1870,7 +1870,7 @@
       "tag": "g",
       "role": null,
       "name": null,
-      "id": "youtube-paths_yt7",
+      "id": "youtube-paths_yt9",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -1896,9 +1896,9 @@
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
       "attributes": {
-        "id": "youtube-paths_yt7"
+        "id": "youtube-paths_yt9"
       },
-      "xpath": "//*[@id=\"youtube-paths_yt7\"]",
+      "xpath": "//*[@id=\"youtube-paths_yt9\"]",
       "clickable": true,
       "interactive": false
     },
@@ -2505,12 +2505,12 @@
       "interactive": true
     },
     {
-      "tag": "yt-icon",
+      "tag": "span",
       "text": "",
       "role": null,
       "name": null,
       "id": null,
-      "class": null,
+      "class": "ytIconWrapperHost",
       "placeholder": null,
       "ariaLabel": null,
       "ariaHidden": null,
@@ -2534,8 +2534,10 @@
         "fontWeight": "400",
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
-      "attributes": {},
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]",
+      "attributes": {
+        "class": "ytIconWrapperHost"
+      },
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]",
       "clickable": true,
       "interactive": false
     },
@@ -2545,7 +2547,7 @@
       "role": null,
       "name": null,
       "id": null,
-      "class": "yt-icon-shape style-scope yt-icon yt-spec-icon-shape",
+      "class": "yt-icon-shape yt-spec-icon-shape",
       "placeholder": null,
       "ariaLabel": null,
       "ariaHidden": null,
@@ -2570,9 +2572,9 @@
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
       "attributes": {
-        "class": "yt-icon-shape style-scope yt-icon yt-spec-icon-shape"
+        "class": "yt-icon-shape yt-spec-icon-shape"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]",
       "clickable": true,
       "interactive": false
     },
@@ -2609,7 +2611,7 @@
       "attributes": {
         "style": "width: 100%; height: 100%; display: block; fill: currentcolor;"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]",
       "clickable": true,
       "interactive": false
     },
@@ -2652,7 +2654,7 @@
         "aria-hidden": "true",
         "style": "pointer-events: none; display: inherit; width: 100%; height: 100%;"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]/svg[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]/svg[1]",
       "clickable": true,
       "interactive": false
     },
@@ -2690,7 +2692,7 @@
         "d": "M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z",
         "fill-rule": "evenodd"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]/svg[1]/path[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]/svg[1]/path[1]",
       "clickable": true,
       "interactive": false
     },
@@ -5495,8 +5497,8 @@
       "href": "https://support.google.com/youtube/answer/95725",
       "src": null,
       "rect": {
-        "top": 225,
-        "left": 787.515625,
+        "top": 205,
+        "left": 697.34375,
         "width": 70.828125,
         "height": 20
       },
@@ -5537,9 +5539,9 @@
       "href": "https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=EE&m=0&pc=yt&oyh=1&cm=6&hl=en&src=4",
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -5582,7 +5584,7 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
+        "top": 237,
         "left": 630.28125,
         "width": 91.4375,
         "height": 36
@@ -5619,7 +5621,7 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 266,
+        "top": 246,
         "left": 630.28125,
         "width": 91.4375,
         "height": 17
@@ -5657,9 +5659,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -5695,9 +5697,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -5732,9 +5734,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -7871,8 +7873,8 @@
       "href": "https://support.google.com/youtube/answer/95725",
       "src": null,
       "rect": {
-        "top": 225,
-        "left": 787.515625,
+        "top": 205,
+        "left": 697.34375,
         "width": 70.828125,
         "height": 20
       },
@@ -7913,9 +7915,9 @@
       "href": "https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=EE&m=0&pc=yt&oyh=1&cm=6&hl=en&src=4",
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -8843,7 +8845,7 @@
         "top": 56,
         "left": 0,
         "width": 1280,
-        "height": 302
+        "height": 282
       },
       "styles": {
         "display": "block",
@@ -9705,7 +9707,7 @@
       "tag": "svg",
       "role": null,
       "name": null,
-      "id": "yt-ringo2-svg_yt7",
+      "id": "yt-ringo2-svg_yt9",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -9732,7 +9734,7 @@
       },
       "attributes": {
         "xmlns": "http://www.w3.org/2000/svg",
-        "id": "yt-ringo2-svg_yt7",
+        "id": "yt-ringo2-svg_yt9",
         "width": "93",
         "height": "20",
         "viewBox": "0 0 93 20",
@@ -9740,7 +9742,7 @@
         "aria-hidden": "true",
         "style": "pointer-events: none; display: inherit; width: 100%; height: 100%;"
       },
-      "xpath": "//*[@id=\"yt-ringo2-svg_yt7\"]",
+      "xpath": "//*[@id=\"yt-ringo2-svg_yt9\"]",
       "clickable": true,
       "interactive": false
     },
@@ -9856,7 +9858,7 @@
       "tag": "g",
       "role": null,
       "name": null,
-      "id": "youtube-paths_yt7",
+      "id": "youtube-paths_yt9",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -9882,9 +9884,9 @@
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
       "attributes": {
-        "id": "youtube-paths_yt7"
+        "id": "youtube-paths_yt9"
       },
-      "xpath": "//*[@id=\"youtube-paths_yt7\"]",
+      "xpath": "//*[@id=\"youtube-paths_yt9\"]",
       "clickable": true,
       "interactive": false
     },
@@ -10756,12 +10758,12 @@
       "interactive": true
     },
     {
-      "tag": "yt-icon",
+      "tag": "span",
       "text": "",
       "role": null,
       "name": null,
       "id": null,
-      "class": null,
+      "class": "ytIconWrapperHost",
       "placeholder": null,
       "ariaLabel": null,
       "ariaHidden": null,
@@ -10785,8 +10787,10 @@
         "fontWeight": "400",
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
-      "attributes": {},
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]",
+      "attributes": {
+        "class": "ytIconWrapperHost"
+      },
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]",
       "clickable": true,
       "interactive": false
     },
@@ -10796,7 +10800,7 @@
       "role": null,
       "name": null,
       "id": null,
-      "class": "yt-icon-shape style-scope yt-icon yt-spec-icon-shape",
+      "class": "yt-icon-shape yt-spec-icon-shape",
       "placeholder": null,
       "ariaLabel": null,
       "ariaHidden": null,
@@ -10821,9 +10825,9 @@
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
       "attributes": {
-        "class": "yt-icon-shape style-scope yt-icon yt-spec-icon-shape"
+        "class": "yt-icon-shape yt-spec-icon-shape"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]",
       "clickable": true,
       "interactive": false
     },
@@ -10860,7 +10864,7 @@
       "attributes": {
         "style": "width: 100%; height: 100%; display: block; fill: currentcolor;"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]",
       "clickable": true,
       "interactive": false
     },
@@ -10903,7 +10907,7 @@
         "aria-hidden": "true",
         "style": "pointer-events: none; display: inherit; width: 100%; height: 100%;"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]/svg[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]/svg[1]",
       "clickable": true,
       "interactive": false
     },
@@ -10941,7 +10945,7 @@
         "d": "M16.296 16.996a8 8 0 11.707-.708l3.909 3.91-.707.707-3.909-3.909zM18 11a7 7 0 00-14 0 7 7 0 1014 0z",
         "fill-rule": "evenodd"
       },
-      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/yt-icon[1]/span[1]/div[1]/svg[1]/path[1]",
+      "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/div[2]/ytd-masthead[1]/div[4]/div[2]/yt-searchbox[1]/button[1]/span[1]/span[1]/div[1]/svg[1]/path[1]",
       "clickable": true,
       "interactive": false
     },
@@ -14271,7 +14275,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 302
+        "height": 282
       },
       "styles": {
         "display": "flex",
@@ -14309,7 +14313,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 302
+        "height": 282
       },
       "styles": {
         "display": "flex",
@@ -14352,7 +14356,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 286
+        "height": 266
       },
       "styles": {
         "display": "flex",
@@ -14392,7 +14396,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 286
+        "height": 266
       },
       "styles": {
         "display": "block",
@@ -14430,7 +14434,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 286
+        "height": 266
       },
       "styles": {
         "display": "flex",
@@ -14444,7 +14448,7 @@
         "class": "style-scope ytd-two-column-browse-results-renderer",
         "elements-per-row": "3",
         "is-default-grid": "",
-        "style": "--ytd-rich-grid-item-max-width: 500px; --ytd-rich-grid-item-min-width: 310px; --ytd-rich-grid-row-margin: 32px; --ytd-rich-grid-items-per-row: 3; --ytd-rich-grid-item-margin: 16px; --ytd-rich-grid-posts-per-row: 3; --ytd-rich-grid-slim-items-per-row: 5; --ytd-rich-grid-game-cards-per-row: 5; --ytd-rich-grid-mini-game-cards-per-row: 5; --ytd-rich-grid-content-offset-top: 56px;"
+        "style": "--ytd-rich-grid-item-max-width: 700px; --ytd-rich-grid-item-min-width: 326px; --ytd-rich-grid-row-margin: 32px; --ytd-rich-grid-items-per-row: 3; --ytd-rich-grid-item-margin: 16px; --ytd-rich-grid-posts-per-row: 3; --ytd-rich-grid-slim-items-per-row: 5; --ytd-rich-grid-game-cards-per-row: 5; --ytd-rich-grid-mini-game-cards-per-row: 5; --ytd-rich-grid-content-offset-top: 56px;"
       },
       "xpath": "/html[1]/body[1]/ytd-app[1]/div[1]/ytd-page-manager[1]/ytd-browse[1]/ytd-two-column-browse-results-renderer[1]/div[1]/ytd-rich-grid-renderer[1]",
       "clickable": false,
@@ -14470,7 +14474,7 @@
         "top": 56,
         "left": 72,
         "width": 1208,
-        "height": 286
+        "height": 266
       },
       "styles": {
         "display": "flex",
@@ -14508,7 +14512,7 @@
         "top": 80,
         "left": 72,
         "width": 1208,
-        "height": 262
+        "height": 242
       },
       "styles": {
         "display": "flex",
@@ -14545,7 +14549,7 @@
         "top": 80,
         "left": 96,
         "width": 1160,
-        "height": 262
+        "height": 242
       },
       "styles": {
         "display": "block",
@@ -14583,7 +14587,7 @@
         "top": 80,
         "left": 96,
         "width": 1160,
-        "height": 230
+        "height": 210
       },
       "styles": {
         "display": "flex",
@@ -14626,9 +14630,9 @@
       "src": null,
       "rect": {
         "top": 80,
-        "left": 425,
-        "width": 502,
-        "height": 230
+        "left": 325,
+        "width": 702,
+        "height": 210
       },
       "styles": {
         "display": "flex",
@@ -14664,9 +14668,9 @@
       "src": null,
       "rect": {
         "top": 81,
-        "left": 426,
-        "width": 500,
-        "height": 228
+        "left": 326,
+        "width": 700,
+        "height": 208
       },
       "styles": {
         "display": "flex",
@@ -14702,9 +14706,9 @@
       "src": null,
       "rect": {
         "top": 105,
-        "left": 456,
-        "width": 440,
-        "height": 140
+        "left": 368,
+        "width": 616,
+        "height": 120
       },
       "styles": {
         "display": "flex",
@@ -14817,9 +14821,9 @@
       "src": null,
       "rect": {
         "top": 145,
-        "left": 456,
-        "width": 440,
-        "height": 100
+        "left": 368,
+        "width": 616,
+        "height": 80
       },
       "styles": {
         "display": "block",
@@ -14855,9 +14859,9 @@
       "src": null,
       "rect": {
         "top": 146,
-        "left": 461.34375,
-        "width": 432.796875,
-        "height": 97
+        "left": 377.234375,
+        "width": 601,
+        "height": 77
       },
       "styles": {
         "display": "inline",
@@ -14895,9 +14899,9 @@
       "src": null,
       "rect": {
         "top": 146,
-        "left": 461.34375,
-        "width": 432.796875,
-        "height": 97
+        "left": 377.234375,
+        "width": 601,
+        "height": 77
       },
       "styles": {
         "display": "inline",
@@ -14932,8 +14936,8 @@
       "href": "https://support.google.com/youtube/answer/95725",
       "src": null,
       "rect": {
-        "top": 225,
-        "left": 787.515625,
+        "top": 205,
+        "left": 697.34375,
         "width": 70.828125,
         "height": 20
       },
@@ -14974,9 +14978,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 44
       },
       "styles": {
@@ -15012,9 +15016,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 44
       },
       "styles": {
@@ -15050,9 +15054,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15089,9 +15093,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15124,9 +15128,9 @@
       "href": "https://consent.youtube.com/d?continue=https://www.youtube.com/%3Fcbrd%3D1&gl=EE&m=0&pc=yt&oyh=1&cm=6&hl=en&src=4",
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15169,7 +15173,7 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
+        "top": 237,
         "left": 630.28125,
         "width": 91.4375,
         "height": 36
@@ -15206,7 +15210,7 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 266,
+        "top": 246,
         "left": 630.28125,
         "width": 91.4375,
         "height": 17
@@ -15244,9 +15248,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15282,9 +15286,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15319,9 +15323,9 @@
       "href": null,
       "src": null,
       "rect": {
-        "top": 257,
-        "left": 456,
-        "width": 440,
+        "top": 237,
+        "left": 368,
+        "width": 616,
         "height": 36
       },
       "styles": {
@@ -15614,7 +15618,7 @@
       "tag": "svg",
       "role": null,
       "name": null,
-      "id": "yt-ringo2-svg_yt6",
+      "id": "yt-ringo2-svg_yt8",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -15641,7 +15645,7 @@
       },
       "attributes": {
         "xmlns": "http://www.w3.org/2000/svg",
-        "id": "yt-ringo2-svg_yt6",
+        "id": "yt-ringo2-svg_yt8",
         "width": "93",
         "height": "20",
         "viewBox": "0 0 93 20",
@@ -15649,7 +15653,7 @@
         "aria-hidden": "true",
         "style": "pointer-events: none; display: inherit; width: 100%; height: 100%;"
       },
-      "xpath": "//*[@id=\"yt-ringo2-svg_yt6\"]",
+      "xpath": "//*[@id=\"yt-ringo2-svg_yt8\"]",
       "clickable": false,
       "interactive": false
     },
@@ -15765,7 +15769,7 @@
       "tag": "g",
       "role": null,
       "name": null,
-      "id": "youtube-paths_yt6",
+      "id": "youtube-paths_yt8",
       "class": null,
       "placeholder": null,
       "ariaLabel": null,
@@ -15791,9 +15795,9 @@
         "backgroundColor": "rgba(0, 0, 0, 0)"
       },
       "attributes": {
-        "id": "youtube-paths_yt6"
+        "id": "youtube-paths_yt8"
       },
-      "xpath": "//*[@id=\"youtube-paths_yt6\"]",
+      "xpath": "//*[@id=\"youtube-paths_yt8\"]",
       "clickable": false,
       "interactive": false
     },
